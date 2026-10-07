@@ -24,7 +24,14 @@
 - 영화 정보: TMDB API (외부 API)
 - 찜, 리뷰, 사용자 정보: 서버에 저장 (공개 리뷰를 공유해야 하므로)
 
+## 기술 스택
+- 프론트엔드 + 서버: Next.js (React, TypeScript)
+- 스타일: Tailwind CSS
+- 데이터베이스: Supabase (PostgreSQL)
+- 비밀번호 저장: bcrypt 해시
+- 배포: Vercel
+- TMDB API 키는 서버에서만 사용한다.
+
 ## 아직 정하지 않은 것
-- 기술 스택(프론트엔드, 서버, DB)
 - 비밀번호를 잊었을 때 복구 방법
 - 디자인
